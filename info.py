@@ -23,7 +23,7 @@ API_HASH = environ.get('API_HASH', 'cf080f74cbc7f619e5e6e5cea9b2a532')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
+CACHE_TIME = int(environ.get('CACHE_TIME', 600))
 PICS = (environ.get('PICS', 'https://graph.org/file/8a9b5d0cd0a26a7d95b47-fbef2adfc9a309ac37.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/8a9b5d0cd0a26a7d95b47-fbef2adfc9a309ac37.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/CINEMACCBOTUPDATES")
